@@ -1,0 +1,2 @@
+﻿  HelloWorld.cpp
+c:\zyc_cloud\github\cpp_study_practice\vs_project_test\helloworld\helloworld\helloworld.cpp(10): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
