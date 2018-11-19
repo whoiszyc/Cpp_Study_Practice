@@ -1,0 +1,62 @@
+In file included from C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\gurobi_c++.h:12:0,
+                 from C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\exam_2.cpp:6:
+C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\gurobi_c.h:20:0: warning: "__cdecl" redefined
+ #define __cdecl
+ 
+<built-in>: note: this is the location of the previous definition
+In file included from C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\gurobi_c++.h:12:0,
+                 from C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\exam_2.cpp:6:
+C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\gurobi_c.h:21:0: warning: "__stdcall" redefined
+ #define __stdcall
+ 
+<built-in>: note: this is the location of the previous definition
+C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\exam_2.cpp:10:52: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                    GRBVar* buy, GRBVar* nutrition) throw(GRBException);
+                                                    ^~~~~
+C:\ZYC_Cloud\GitHub\Cpp_Study_Practice\Optimization_Gurobi\exam_2.cpp:108:52: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                    GRBVar* buy, GRBVar* nutrition) throw(GRBException)
+                                                    ^~~~~
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x4ae): undefined reference to `GRBEnv::GRBEnv()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x4ae): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBEnv::GRBEnv()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x4cb): undefined reference to `GRBModel::GRBModel(GRBEnv const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x4cb): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBModel::GRBModel(GRBEnv const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x518): undefined reference to `GRBModel::set(GRB_StringAttr, std::string const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x518): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBModel::set(GRB_StringAttr, std::string const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x56c): undefined reference to `GRBModel::addVars(double const*, double const*, double const*, char const*, std::string const*, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x56c): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBModel::addVars(double const*, double const*, double const*, char const*, std::string const*, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5b1): undefined reference to `GRBModel::addVars(double const*, double const*, double const*, char const*, std::string const*, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5b1): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBModel::addVars(double const*, double const*, double const*, char const*, std::string const*, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5d2): undefined reference to `GRBModel::set(GRB_IntAttr, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5d2): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBModel::set(GRB_IntAttr, int)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5f9): undefined reference to `GRBLinExpr::GRBLinExpr(double)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x5f9): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBLinExpr::GRBLinExpr(double)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x65d): undefined reference to `operator*(double, GRBVar)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x65d): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `operator*(double, GRBVar)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x670): undefined reference to `GRBLinExpr::operator+=(GRBLinExpr const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x670): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBLinExpr::operator+=(GRBLinExpr const&)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x6e6): undefined reference to `GRBQuadExpr::GRBQuadExpr(GRBVar, double)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x6e6): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `GRBQuadExpr::GRBQuadExpr(GRBVar, double)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x70f): undefined reference to `GRBQuadExpr::GRBQuadExpr(GRBLinExpr)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x70f): additional relocation overflows omitted from the output
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x72f): undefined reference to `operator==(GRBQuadExpr, GRBQuadExpr)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x74f): undefined reference to `GRBModel::addConstr(GRBTempConstr const&, std::string)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x7c1): undefined reference to `GRBModel::optimize()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x85d): undefined reference to `GRBQuadExpr::GRBQuadExpr(double)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x888): undefined reference to `operator+(GRBVar, GRBVar)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x89e): undefined reference to `GRBQuadExpr::GRBQuadExpr(GRBLinExpr)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x8be): undefined reference to `operator<=(GRBQuadExpr, GRBQuadExpr)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x8de): undefined reference to `GRBModel::addConstr(GRBTempConstr const&, std::string)'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x947): undefined reference to `GRBModel::optimize()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x986): undefined reference to `GRBModel::~GRBModel()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xa0a): undefined reference to `GRBEnv::~GRBEnv()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xd3d): undefined reference to `GRBModel::~GRBModel()'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xde9): undefined reference to `GRBException::getErrorCode() const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xe18): undefined reference to `GRBException::getMessage() const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xf1a): undefined reference to `GRBModel::get(GRB_IntAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xf4c): undefined reference to `GRBModel::get(GRB_DoubleAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xfbd): undefined reference to `GRBVar::get(GRB_DoubleAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0xff6): undefined reference to `GRBVar::get(GRB_StringAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x103c): undefined reference to `GRBVar::get(GRB_DoubleAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x10c7): undefined reference to `GRBVar::get(GRB_StringAttr) const'
+/cygdrive/c/Users/YICHEN~1/AppData/Local/Temp/ccyL6GGf.o:exam_2.cpp:(.text+0x110d): undefined reference to `GRBVar::get(GRB_DoubleAttr) const'
+collect2: error: ld returned 1 exit status
