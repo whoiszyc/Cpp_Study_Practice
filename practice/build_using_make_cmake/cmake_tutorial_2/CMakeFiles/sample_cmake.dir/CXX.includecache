@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Point.cpp
+Point.h
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Point.h
+
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Point.h
+
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Rectangle.cpp
+Rectangle.h
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Rectangle.h
+
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Rectangle.h
+Point.h
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Point.h
+
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/main.cpp
+iostream
+-
+Point.h
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Point.h
+Rectangle.h
+/Users/whoiszyc/Github/Cpp_Study_Practice/practice/cmake_tutorial_2/Rectangle.h
+
