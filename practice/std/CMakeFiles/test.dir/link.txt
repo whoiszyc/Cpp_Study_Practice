@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test.dir/list_test_1.cpp.o  -o test 

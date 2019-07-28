@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi
+CMAKE_BINARY_DIR = /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/optimization_Gurobi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/CMakeFiles /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/optimization_Gurobi/CMakeFiles /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/optimization_Gurobi/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/optimization_Gurobi/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gurobitest
+# Target rules for targets named test
 
 # Build rule for target.
-gurobitest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gurobitest
-.PHONY : gurobitest
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-gurobitest/fast:
-	$(MAKE) -f CMakeFiles/gurobitest.dir/build.make CMakeFiles/gurobitest.dir/build
-.PHONY : gurobitest/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 exam_1.o: exam_1.cpp.o
 
@@ -129,7 +129,7 @@ exam_1.o: exam_1.cpp.o
 
 # target to build an object file
 exam_1.cpp.o:
-	$(MAKE) -f CMakeFiles/gurobitest.dir/build.make CMakeFiles/gurobitest.dir/exam_1.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/exam_1.cpp.o
 .PHONY : exam_1.cpp.o
 
 exam_1.i: exam_1.cpp.i
@@ -138,7 +138,7 @@ exam_1.i: exam_1.cpp.i
 
 # target to preprocess a source file
 exam_1.cpp.i:
-	$(MAKE) -f CMakeFiles/gurobitest.dir/build.make CMakeFiles/gurobitest.dir/exam_1.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/exam_1.cpp.i
 .PHONY : exam_1.cpp.i
 
 exam_1.s: exam_1.cpp.s
@@ -147,7 +147,7 @@ exam_1.s: exam_1.cpp.s
 
 # target to generate assembly for a file
 exam_1.cpp.s:
-	$(MAKE) -f CMakeFiles/gurobitest.dir/build.make CMakeFiles/gurobitest.dir/exam_1.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/exam_1.cpp.s
 .PHONY : exam_1.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... gurobitest"
+	@echo "... test"
 	@echo "... exam_1.o"
 	@echo "... exam_1.i"
 	@echo "... exam_1.s"

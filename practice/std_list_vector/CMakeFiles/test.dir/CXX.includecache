@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/std_list_vector/list_test_1.cpp
+iostream
+-
+list
+-
+typeinfo
+-
+

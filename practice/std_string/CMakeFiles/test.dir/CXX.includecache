@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/std_string/cpp_style.cpp
+iostream
+-
+string
+-
+

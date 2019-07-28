@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/std_map/map_test_4.cpp
+iostream
+-
+vector
+-
+map
+-
+list
+-
+

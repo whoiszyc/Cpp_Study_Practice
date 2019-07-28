@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/optimization_Gurobi")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
