@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/exam_1.cpp
+gurobi_c++.h
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/gurobi_c++.h
+iostream
+-
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/gurobi_c++.h
+iostream
+-
+vector
+-
+string
+-
+gurobi_c.h
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/gurobi_c.h
+
+/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/Optimization_Gurobi/gurobi_c.h
+stdio.h
+-
+

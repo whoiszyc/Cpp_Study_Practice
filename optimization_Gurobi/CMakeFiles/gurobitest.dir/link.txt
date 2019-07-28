@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -stdlib=libstdc++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/gurobitest.dir/exam_1.cpp.o  -o gurobitest /Library/gurobi811/mac64/lib/libgurobi_c++.a /Library/gurobi811/mac64/lib/libgurobi_c++.a 
