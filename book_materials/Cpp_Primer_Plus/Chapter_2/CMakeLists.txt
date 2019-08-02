@@ -3,14 +3,15 @@
 #set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
-# project(class_test_1)
+# project(chapter_2)
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 # The simplest cmake only needs add_executable
+# After a space the # symbol can be used for comments
 add_executable(
     test
-    test_1.cpp
+    sqrt.cpp
 )

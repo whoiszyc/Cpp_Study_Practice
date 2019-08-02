@@ -1,3 +1,0 @@
-/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/class/CMakeFiles/rebuild_cache.dir
-/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/class/CMakeFiles/edit_cache.dir
-/Users/whoiszyc/Github/Yichen_Repo/Repo_cpp/practice/class/CMakeFiles/test_1.dir
