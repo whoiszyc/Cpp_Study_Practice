@@ -13,11 +13,12 @@ void zyc_test_1 (int * x)
 }
 
 // Pass arguments by refernce
-void zyc_test_2 (int & x)
+int & zyc_test_2 (int & x)
 {
   int * ad = &x;
   cout << "Pass arguments by refernce - x: " << x << endl;
   cout << "Pass arguments by refernce - ad: " << ad << endl;
+  return x;
 }
 
 // Pass arguments by value
@@ -53,11 +54,14 @@ int main ()
   zyc_test_1(add);
 
   // Pass by reference
-  zyc_test_2(x);
+  int & ref3 = zyc_test_2(x);
+  cout << "refernce of x - ref: " << ref << endl;
+  cout << "returned refernce from function - int & ref3 = zyc_test_2(x): " << ref3 << endl;
 
   // Pass by value
   add3 = zyc_test_3(x);
 
+// Local variable has local	scope	within the function, and its	value	is destroyed after the function exits.	
   cout << "The returned address - add3: " << add3 << endl;
   cout << "Check if the variable at address add3 has been released - *add3: " << *add3 << endl;
   cout << "Obviously it has been released" << endl;

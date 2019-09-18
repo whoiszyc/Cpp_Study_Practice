@@ -12,5 +12,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 # The simplest cmake only needs add_executable
 add_executable(
     test
-    reference_1.cpp
+    test_function_2.cpp
 )
